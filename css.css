@@ -1,0 +1,57 @@
+body {
+    background-color: #333333;
+}
+#input{
+    max-width: 450px;
+    margin: auto;
+
+}
+
+#inputForm {
+    text-align: center;
+    border: 2px solid darkorange;
+    background-color: black;
+    color: white;
+    margin: auto;
+    width: 70%;
+    padding: 25px 0px 25px 0px;
+
+    margin-bottom: 25px;
+}
+
+table{
+    margin: auto;
+}
+#inputForm label {
+    text-align: right !important;
+}
+#resultTable {
+    border: 2px solid darkorange;
+    background-color: black;
+    color: white;
+}
+#resultTable thead{
+    font-size: 1.3em;
+    font-family: Verdana;
+    color: darkorange;
+
+}
+#resultTable tr:nth-child(odd) {
+    background-color: #1b1b1b;
+}
+table .pseudo {
+    text-align: right !important;
+    padding-right: 3px;
+}
+table .message {
+    padding-left: 10px;
+}
+table .datetime {
+    padding-left: 10px;
+    font-size: 0.7em;
+}
+#error {
+    font-size: 1.2em;
+    color: red;
+    font-weight: bold;
+}
